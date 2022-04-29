@@ -79,6 +79,113 @@
 
 .content {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  margin: 100px 0;
+  display: flex;
+  width: 80%;
+}
+
+.two-columns {
+  margin: 0 auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  border: 1px solid rgb(141, 92, 234);
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  border: 1px solid rgb(234, 234, 92);
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: 700;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  border: 1px solid red;
+}
+
+.digits__title {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.digits__subtitle {
+  width: 60%;
+  margin: 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.digits__table {
+  width: 1100px;
+  margin: 60px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 60px;
+}
+
+.table_cell {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 250px;
+  list-style-type: none;
+}
+
+.table_heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table_text {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
