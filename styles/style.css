@@ -93,7 +93,7 @@ h1, h2, h3, h4 {
 }
 
 .header__link:hover {
-  color: rgba(47, 128, 237, .5)
+  color: rgba(47, 128, 237, .5);
 }
 
 .description {
