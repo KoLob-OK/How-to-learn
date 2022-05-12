@@ -1,3 +1,23 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*@keyframes move_bg {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  100% {
+    background-position-x: -300px;
+    background-position-y: 0;
+  }
+}*/
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -16,6 +36,7 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  overflow: hidden;
   /* выше установили высоту (экран просмотра), её min и max высоту,
   задали цвет фона,  сделали шапку резиновой с относительным позиционированием элементов */
 }
@@ -31,6 +52,10 @@
   top: 30px;
   left: 64px;
   /* позиционирует логотип шапки абсолютно относительно верхней левой стороны шапки */
+}
+
+.logo_place_footer {
+  display: flex;
 }
 
 .header__title {
@@ -68,10 +93,15 @@
   position: absolute;
   right: 0;
   top: 64px;
+  animation: rotation 20s linear infinite;
 
   /* нарисовали квадрат заданного размера, задали внешние отступы, цвет его фона, позиционировали
   его абсолютно относительно правого верхнего угла шапки */
 }
+
+/*.header__square-pic:hover {
+  transform: rotate(360deg);
+  }*/
 
 .header__main-illustration {
   width: 765px;
@@ -88,11 +118,12 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .4s linear;
   /* задали цвет ссылке в подзаголовке шапки, убрали подчеркивание */
 }
 
 .header__link:hover {
-  color: rgba(47, 128, 237, .5);
+  opacity: .5;
 }
 
 .description {
@@ -179,7 +210,6 @@
   height: 160px;
   border-radius: 50%;
   margin: 60px 40px 43px;
-
 }
 
 .card__text {
@@ -344,6 +374,8 @@
   font-size: 36px;
   font-style: normal;
   color: #2f80ed;
+  transition: opacity .4s linear;
+  /* transition: transform .5s linear; */
   text-decoration: none;
   z-index: 1;
   /* задали ссылке третьей секции абсолютное позиционирование относительно правой границы,
@@ -351,8 +383,9 @@
 }
 
 .feynman__link:hover {
-  color: rgba(47, 128, 237, .5);
-}
+  opacity: .5;
+  /* transform: scale(1.1); */
+  }
 
 .feynman__main-illustration {
   width: 867px;
@@ -426,11 +459,17 @@
   line-height: 42px;
   font-size: 30px;
   color: #2f80ed;
+  transition: opacity .4s linear;
+  /* transition: color .5s linear; */
+  /* transition: transform .5s ease-out; */
   text-decoration: none;
+  align-self: baseline;
    }
 
 .khan__buy-link:hover {
-  color: rgba(47, 128, 237, .5);
+  opacity: .5;
+  /* color: rgba(47, 128, 237, .5); */
+  /* transform: scale(1.1); */
 }
 
 .kaufman {
@@ -449,10 +488,11 @@
   width: 877px;
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   position: absolute;
   right: -210px;
   top: 0;
-  z-index: 0;
+  animation: rotation 20s linear infinite/*, move_bg 10s linear infinite alternate*/;
   /* задали размеры изображению с треугольником четвертой секции, адрес источника
   абсолютное позиционирование относительно правого верхнего угла секции, глубину слоя */
  }
@@ -597,6 +637,8 @@
 .footer__column-link {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  transition: color .5s linear;
+  /*transition: transform .5s ease-out;*/
   line-height: 30px;
   font-size: 18px;
   font-style: normal;
@@ -605,5 +647,6 @@
 }
 
 .footer__column-link:hover {
+  /*transform: scale(1.1);*/
   color: #2f80ed;
-}
+  }
