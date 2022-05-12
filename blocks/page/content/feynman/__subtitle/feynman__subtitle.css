@@ -1,0 +1,11 @@
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  /* задали подзаголовку третьей секции внешний отступ сверху, относительное позиционирование,
+  глубину слоя, стили тексту */
+}

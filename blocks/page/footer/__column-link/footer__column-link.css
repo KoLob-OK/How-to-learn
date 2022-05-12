@@ -1,0 +1,16 @@
+.footer__column-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color .5s linear;
+  /*transition: transform .5s ease-out;*/
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+
+  /* задали ссылкам футера внешние отступы, убрали подчеркивание, задали стили текста */
+}
+
+.footer__column-link:hover {
+  /*transform: scale(1.1);*/
+  color: #2f80ed;
+}

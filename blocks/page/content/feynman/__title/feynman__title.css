@@ -1,0 +1,12 @@
+.feynman__title {
+  max-width: 648px;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  position: relative;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 1;
+  /* задали ширину заголовка третьей секции, внешние отступы, глубину слоя, стили тексту */
+}

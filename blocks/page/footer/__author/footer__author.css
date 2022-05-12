@@ -1,0 +1,8 @@
+.footer__author {
+  margin: 18px 0;
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  /* задали внешние отступы параграфу копирайта футера, стили текста */
+}

@@ -1,0 +1,17 @@
+.header__square-pic {
+  margin: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  animation: rotation 20s linear infinite;
+
+  /* нарисовали квадрат заданного размера, задали внешние отступы, цвет его фона, позиционировали
+  его абсолютно относительно правого верхнего угла шапки */
+}
+
+/*.header__square-pic:hover {
+  transform: rotate(360deg);
+  }*/

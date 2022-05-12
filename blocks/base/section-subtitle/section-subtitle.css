@@ -1,0 +1,9 @@
+.section-subtitle {
+  width: 60%;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  /* задали внешние отступы подзаголовку второй и четвертой секций, задали стили тексту */
+}

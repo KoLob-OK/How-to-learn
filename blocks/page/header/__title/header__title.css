@@ -1,0 +1,13 @@
+.header__title {
+  max-width: 730px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+  z-index: 1; /* ИСПРАВЛЕНО rel.2 для исключения перекрытия иллюстрацией*/
+  /* задали ширину заголовка шапки, поместили его в резинку, отцентрировали элементы,
+  создали внешние отступы, задали стили тексту*/
+}

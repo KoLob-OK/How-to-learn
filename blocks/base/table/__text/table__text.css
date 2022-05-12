@@ -1,0 +1,9 @@
+.table__text {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  /* задали внешние отступы тексту блока карточки (колонки) стола второй и
+  четвертой секций, задали стили тексту */
+}

@@ -1,0 +1,11 @@
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  object-fit: cover; /* --ВЫПОЛНЕНО-- */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  /* задали размеры картинке шапки, позиционировали абсолютно относительно правого нижнего угла
+  шапки,  задали глубину слоя */
+}

@@ -1,0 +1,32 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*@keyframes move_bg {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  100% {
+    background-position-x: -300px;
+    background-position-y: 0;
+  }
+}*/
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../../../../../images/kaufman-triangle.svg);
+  background-size: contain;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  animation: rotation 20s linear infinite; /*, move_bg 10s linear infinite alternate*/
+  /* задали размеры изображению с треугольником четвертой секции, адрес источника
+  абсолютное позиционирование относительно правого верхнего угла секции, глубину слоя */
+}

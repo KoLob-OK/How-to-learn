@@ -1,0 +1,20 @@
+.feynman__link {
+  position: absolute;
+  top: 50%; /* ИСПРАВЛЕНО rel.2 */
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  color: #2f80ed;
+  transition: opacity .4s linear;
+  /* transition: transform .5s linear; */
+  text-decoration: none;
+  z-index: 1;
+  /* задали ссылке третьей секции абсолютное позиционирование относительно правой границы,
+  стили тексту, убрали подчеркивание ссылки */
+}
+
+.feynman__link:hover {
+  opacity: .5;
+  /* transform: scale(1.1); */
+}

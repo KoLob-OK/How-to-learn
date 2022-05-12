@@ -1,0 +1,9 @@
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* левой колонке футера задали базисную ширину относительно флекса,
+  сделали контейнер резиновым колоночного типа, юстировали содержимое
+  по границам с промежутками между */
+}
