@@ -14,13 +14,14 @@
   <meta name="author" content="KoLobOK"/>
   <link
     rel="stylesheet"
-    href="./styles/normalize.css"
+    href="./vendor/normalize.css"
   />
-  <link rel="stylesheet" href="./styles/style.css"/>
+  <link rel="stylesheet" href="./pages/index.css"/>
   <title>Научиться учиться</title>
 </head>
 <body class="page">
-<header class="header">
+
+  <header class="header">
   <img
     class="logo logo_place_header"
     src="./images/logo_place_header.svg"
@@ -33,15 +34,16 @@
     Узнать →</a
   >
   </p>
-  <div class="header__square-pic"></div>
+  <div class="header__square-pic rotation"></div>
   <img
     class="header__main-illustration"
     src="./images/header-image.png"
     alt="Иллюстрация «Опять двойка» (Ф.П. Решетников)"/>
 </header>
 
-<main class="content">
-  <section class="description">
+  <main class="content">
+
+    <section class="description">
     <div class="two-columns">
       <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
       <div class="two-columns__main-text">
@@ -64,7 +66,8 @@
       </div>
     </div>
   </section>
-  <section class="techniques">
+
+    <section class="techniques">
     <h2 class="section-title">Техники обучения</h2>
     <p class="section-subtitle">Пять практик от Барбары Оакли</p>
     <ul class="cards">
@@ -108,7 +111,8 @@
       </li>
     </ul>
   </section>
-  <section class="video">
+
+    <section class="video">
     <h2 class="section-title">Видео нa TED</h2>
     <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
     <div class="video__iframes">
@@ -120,7 +124,8 @@
               allowfullscreen></iframe>
     </div>
   </section>
-  <section class="oakley">
+
+    <section class="oakley">
     <div class="two-columns">
       <h2 class="two-columns__brief">История Барбары Оакли.</h2>
       <div class="two-columns__main-text">
@@ -136,7 +141,8 @@
       </div>
     </div>
   </section>
-  <section class="feynman">
+
+    <section class="feynman">
     <h2 class="feynman__title">Метод Фейнмана</h2>
     <p class="feynman__subtitle">Выучить и не забыть.</p>
     <a class="feynman__link" href="#">Подробнее →</a>
@@ -145,7 +151,8 @@
       src="./images/feynman.png"
       alt="Иллюстрация «Richard Feynman»"/>
   </section>
-  <section class="digits">
+
+    <section class="digits">
     <h2 class="section-title">Цифры и факты</h2>
     <p class="section-subtitle">Про учёбу и мозг</p>
     <ul class="table">
@@ -193,7 +200,8 @@
       </li>
     </ul>
   </section>
-  <section class="khan">
+
+    <section class="khan">
     <div class="khan__container">
       <p class="khan__author">Салман Хан</p>
       <h2 class="khan__title">Весь мир — школа</h2>
@@ -208,7 +216,8 @@
       </div>
     </div>
   </section>
-  <section class="kaufman">
+
+    <section class="kaufman">
     <h2 class="section-title section-title_theme_dark">
       Принципы обучения
     </h2>
@@ -277,33 +286,34 @@
         </p>
       </li>
     </ul>
-    <div class="kaufman__triangle"></div>
+    <div class="kaufman__triangle rotation"></div>
   </section>
-  <section class="resources">
+
+    <section class="resources">
     <h2 class="section-title">
       Полезные ресурсы
     </h2>
     <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
     <div class="resources__logo-zone">
-      <a class="resources__link" target="_blank" href="#">
+      <a class="resources__link" target="_blank" href="https://arzamas.academy">
         <img
           class="resources__logo"
           src="./images/logo/resources-arzamas.svg"
           alt="Логотип ресурса Арзамас"/>
       </a>
-      <a class="resources__link" target="_blank" href="#">
+      <a class="resources__link" target="_blank" href="https://nplus1.ru">
         <img
           class="resources__logo"
           src="./images/logo/resources-n1.svg"
           alt="Логотип ресурса N+1"/>
       </a>
-      <a class="resources__link" target="_blank" href="#">
+      <a class="resources__link" target="_blank" href="https://strelka.com">
         <img
           class="resources__logo"
           src="./images/logo/resources-strelka.svg"
           alt="Логотип ресурса Стрелка"/>
       </a>
-      <a class="resources__link" target="_blank" href="#">
+      <a class="resources__link" target="_blank" href="https://polka.academy">
         <img
           class="resources__logo"
           src="./images/logo/resources-polka.svg"
@@ -311,9 +321,10 @@
       </a>
     </div>
   </section>
-</main>
 
-<footer class="footer">
+  </main>
+
+  <footer class="footer">
   <div class="footer__columns">
     <div class="footer__column footer__column_content_copyright">
       <img
@@ -358,5 +369,6 @@
     </div>
   </div>
 </footer>
+
 </body>
 </html>

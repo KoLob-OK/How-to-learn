@@ -5,6 +5,7 @@
 @import url(../blocks/base/logo/logo.css);
 @import url(../blocks/base/logo/_place/logo_place_header.css);
 @import url(../blocks/base/logo/_place/logo_place_footer.css);
+@import url(../blocks/base/rotation/rotation.css);
 
 @import url(../blocks/page/header/__title/header__title.css);
 @import url(../blocks/page/header/__subtitle/header__subtitle.css);
@@ -86,18 +87,3 @@
 @import url(../blocks/page/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/page/footer/__column-links/footer__column-links.css);
 @import url(../blocks/page/footer/__column-link/footer__column-link.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

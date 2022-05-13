@@ -6,10 +6,6 @@
   position: absolute;
   right: 0;
   top: 64px;
-  animation: rotation 20s linear infinite;
-
-  /* нарисовали квадрат заданного размера, задали внешние отступы, цвет его фона, позиционировали
-  его абсолютно относительно правого верхнего угла шапки */
 }
 
 /*.header__square-pic:hover {
