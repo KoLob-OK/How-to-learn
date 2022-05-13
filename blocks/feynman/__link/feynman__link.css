@@ -6,8 +6,8 @@
   font-size: 36px;
   font-style: normal;
   color: #2f80ed;
-  transition: opacity .4s linear;
-  /* transition: transform .5s linear; */
+  transition: opacity .3s linear;
+  /* transition: transform .3s linear; */
   text-decoration: none;
   z-index: 1;
   /* задали ссылке третьей секции абсолютное позиционирование относительно правой границы,

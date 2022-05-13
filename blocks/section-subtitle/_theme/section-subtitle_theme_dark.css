@@ -1,7 +1,6 @@
 .section-subtitle_theme_dark {
   color: rgb(255, 255, 255);
-  line-height: 34px;
-  font-size: 24px;
-  font-style: normal;
+  position: relative;
+  z-index: 1;
   /* модификатор для подзаголовка четвертой секции задает стили тексту*/
 }

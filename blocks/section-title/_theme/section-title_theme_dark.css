@@ -1,7 +1,6 @@
 .section-title_theme_dark {
   color: rgb(255, 255, 255);
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
+  position: relative;
+  z-index: 1;
   /* модификатор для заголовка четвертой секции задает стили тексту */
 }
