@@ -1,5 +1,3 @@
-<!--Создана Nested БЭМ структура: раздел блоки содержит базовые блоки (logo, title, subtitle...)
-и блок page, включающий в себя блоки секций и их блоков и элементов-->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -41,7 +39,7 @@
   <p class="header__subtitle">
     Какие современные и эффективные подходы к обучению вы можете
     использовать в своей жизни?<a class="header__link" href="#">
-    Узнать →</a
+    Узнать &rarr;</a
   >
   </p>
   <div class="header__square-pic rotation"></div>
@@ -55,7 +53,7 @@
 <main class="content">
 
   <section class="description">
-    <div class="two-columns">
+    <article class="two-columns">
       <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
       <div class="two-columns__main-text">
         <p class="two-columns__paragraph">
@@ -75,7 +73,7 @@
           применяются на примере обучения в Практикуме.
         </p>
       </div>
-    </div>
+    </article>
   </section>
 
   <section class="techniques">
@@ -155,7 +153,7 @@
   </section>
 
   <section class="oakley">
-    <div class="two-columns">
+    <article class="two-columns">
       <h2 class="two-columns__brief">История Барбары Оакли.</h2>
       <div class="two-columns__main-text">
         <p class="two-columns__paragraph">
@@ -168,13 +166,13 @@
           чем у тех, кому всё ясно с первого взгляда.
         </p>
       </div>
-    </div>
+    </article>
   </section>
 
   <section class="feynman">
     <h2 class="feynman__title">Метод Фейнмана</h2>
     <p class="feynman__subtitle">Выучить и не забыть.</p>
-    <a class="feynman__link" href="#">Подробнее →</a>
+    <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
     <img
       class="feynman__main-illustration"
       src="./images/feynman.png"
@@ -235,10 +233,10 @@
     <div class="khan__container">
       <p class="khan__author">Салман Хан</p>
       <h2 class="khan__title">Весь мир — школа</h2>
-      <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+      <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
         Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
-        получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-      <h4 class="khan__quote-author">Джордж Лукас</h4>
+        получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+      <p class="khan__quote-author">Джордж Лукас</p>
       <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
       <div class="khan__book-container">
         <img
@@ -246,7 +244,7 @@
           src="./images/khan-book.jpg"
           alt="Обложка книги Салман Хан Весь мир - школа"
         />
-        <a class="khan__buy-link" href="#">Купить книгу →</a>
+        <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
       </div>
     </div>
   </section>
@@ -328,50 +326,84 @@
       Полезные ресурсы
     </h2>
     <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-    <div class="resources__logo-zone">
-      <a class="resources__link"
-         target="_blank"
-         href="https://arzamas.academy">
-        <img
-          class="resources__logo"
-          src="./images/logo/resources-arzamas.svg"
-          alt="Логотип ресурса Арзамас"
+    <ul class="resources__logo-zone">
+
+      <li class="resources__link">
+        <a target="_blank"
+           href="https://arzamas.academy">
+          <img
+            class="resources__logo"
+            src="./images/logo/resources-arzamas.svg"
+            alt="Логотип ресурса Арзамас"
         />
-      </a>
-      <a class="resources__link"
-         target="_blank"
-         href="https://nplus1.ru">
-        <img
-          class="resources__logo"
-          src="./images/logo/resources-n1.svg"
-          alt="Логотип ресурса N+1"
-        />
-      </a>
-      <a class="resources__link"
-         target="_blank"
-         href="https://strelka.com">
-        <img
-          class="resources__logo"
-          src="./images/logo/resources-strelka.svg"
-          alt="Логотип ресурса Стрелка"
-        />
-      </a>
-      <a class="resources__link"
-         target="_blank"
-         href="https://polka.academy">
-        <img
-          class="resources__logo"
-          src="./images/logo/resources-polka.svg"
-          alt="Логотип ресурса Полка"
-        />
-      </a>
-    </div>
+        </a>
+      </li>
+
+      <li class="resources__link">
+        <a target="_blank"
+           href="https://nplus1.ru">
+          <img
+            class="resources__logo"
+            src="./images/logo/resources-n1.svg"
+            alt="Логотип ресурса N+1"
+          />
+        </a>
+      </li>
+
+      <li class="resources__link">
+        <a target="_blank"
+           href="https://strelka.com">
+          <img
+            class="resources__logo"
+            src="./images/logo/resources-strelka.svg"
+            alt="Логотип ресурса Стрелка"
+          />
+        </a>
+      </li>
+
+      <li class="resources__link">
+        <a target="_blank"
+           href="https://polka.academy">
+          <img
+            class="resources__logo"
+            src="./images/logo/resources-polka.svg"
+            alt="Логотип ресурса Полка"
+          />
+        </a>
+      </li>
+
+    </ul>
   </section>
-  <a class="up" href="#">Наверх</a>
+  <!--<a class="button-top button-top_form_rectangle" href="#">Наверх</a>-->
+  <!--  Выше создана прямоугольная кнопка-ссылка для перехода на верх страницы.
+  Стили подключены и закомментированы с целью соответствия работы брифу-->
+
+  <!--<a class="button-top button-top_form_round" href="#">
+    <svg class="up__button-round_shadow"
+         width="900.000000pt"
+         height="900.000000pt"
+         viewBox="0 0 900.000000 900.000000"
+         preserveAspectRatio="xMidYMid meet">
+      <g transform="translate(0.000000,900.000000) scale(0.100000,-0.100000)"
+         fill="#2f80ed" stroke="none">
+        <path d="M4330 8259 c-41 -11 -111 -39 -155 -61 -78 -40 -107 -68 -1251 -1212
+ -1033 -1032 -1176 -1179 -1209 -1239 -130 -237 -117 -519 34 -734 127 -180
+311 -281 532 -291 163 -7 293 29 427 119 26 18 284 269 575 558 l527 526 0
+ -2288 c0 -2565 -6 -2367 75 -2532 123 -252 374 -398 659 -383 284 16 521 205
+618 493 l23 70 3 2320 2 2319 528 -525 c290 -290 547 -540 572 -556 127 -85
+250 -123 399 -123 379 0 685 307 683 685 0 115 -22 208 -74 315 l-41 85 -1176
+1176 c-1097 1096 -1181 1178 -1247 1212 -118 61 -185 78 -314 83 -94 3 -128 0
+ -190 -17z"/>
+      </g>
+    </svg>
+  </a>-->
+  <!--  Выше создана круглая кнопка для перехода на верх страницы.
+  Стили подключены и закомментированы с целью соответствия работы брифу-->
+
 </main>
 
 <footer class="footer">
-  <div class="footer__columns">
+  <article class="footer__columns">
     <div class="footer__column footer__column_content_copyright">
       <img
         class="logo logo_place_footer"
@@ -413,7 +445,7 @@
         />Instagram</a>
       </nav>
     </div>
-  </div>
+  </article>
 </footer>
 
 </body>

@@ -1,7 +1,8 @@
 .footer__column-link {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  transition: color .4s linear;
+  transition: opacity .3s linear;
+  /*transition: color .4s linear;*/
   /*transition: transform .5s ease-out;*/
   line-height: 30px;
   font-size: 18px;
@@ -11,6 +12,7 @@
 }
 
 .footer__column-link:hover {
+  opacity: .5;
   /*transform: scale(1.1);*/
-  color: #2f80ed;
+  /*color: #2f80ed;*/
 }
