@@ -1,0 +1,12 @@
+.button-top_form_rectangle {
+  background-color: #2f80ed;
+  border-radius: 10px;
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: transform .2s linear;
+  z-index: 3;
+}
+
+.button-top_form_rectangle:hover {
+  transform: scale(1.05) translate(0, 3px);
+}

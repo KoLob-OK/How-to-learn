@@ -1,0 +1,9 @@
+.button-top {
+  margin: 0;
+  box-shadow: 0 0 10px #f2f2f2;
+  padding: 15px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 3;
+}

@@ -1,0 +1,17 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.button-top_form_round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid #2f80ed;
+  animation: pulse 1s ease-in-out infinite alternate;
+  filter: drop-shadow(0 5px 5px #f2f2f2);
+}
