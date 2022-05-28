@@ -44,9 +44,9 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-/*@import url(../blocks/button-top/button-top.css);*/
-/*@import url(../blocks/button-top/_form/button-top_form_round.css);*/
-/*@import url(../blocks/button-top/_form/button-top_form_rectangle.css);*/
+@import url(../blocks/button-top/button-top.css);
+@import url(../blocks/button-top/_form/button-top_form_round.css);
+@import url(../blocks/button-top/_form/button-top_form_rectangle.css);
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
