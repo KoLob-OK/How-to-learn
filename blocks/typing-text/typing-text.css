@@ -1,0 +1,23 @@
+@keyframes typing {
+  from {width: 0;}
+  to   {width: 17ch;} /* задается количеством символов текста, включая пробелы */
+}
+
+@keyframes caret {
+  from, to {border-color: transparent}
+  50%      {border-color: #1f1f1f;}
+}
+
+.typing-text {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: .1ch solid;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  align-self: center;
+  animation: typing 3s steps(17) forwards,
+             caret 1s steps(1) infinite;
+}
